@@ -7,6 +7,9 @@
     ".": "./index.js",
     "./includes": "./include.js"
   },
+  "scripts": {
+    "test": "node --test --experimental-test-snapshots"
+  },
   "dependencies": {
     "siginfo": "^2.0.0",
     "stackback": "0.0.2"

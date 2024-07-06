@@ -1,0 +1,16 @@
+exports[`it captures the correct output 1`] = `
+[
+  "There are 4 handle(s) keeping the process running\\n",
+  "\\n# Timeout\\n",
+  "/Users/jon/Projects/personal/why-is-node-running/tests/manual.js:6  - setInterval(() => {}, 1000)\\n",
+  "/Users/jon/Projects/personal/why-is-node-running/tests/manual.js:10 - startServer()\\n\\n",
+  "# TCPSERVERWRAP\\n",
+  "/Users/jon/Projects/personal/why-is-node-running/tests/manual.js:7  - server.listen(0)\\n",
+  "/Users/jon/Projects/personal/why-is-node-running/tests/manual.js:10 - startServer()\\n",
+  "\\n# Timeout\\n",
+  "/Users/jon/Projects/personal/why-is-node-running/tests/manual.js:6  - setInterval(() => {}, 1000)\\n",
+  "/Users/jon/Projects/personal/why-is-node-running/tests/manual.js:11 - startServer()\\n",
+  "\\n# TCPSERVERWRAP\\n",
+  "/Users/jon/Projects/personal/why-is-node-running/tests/manual.js:7  - server.listen(0)\\n/Users/jon/Projects/personal/why-is-node-running/tests/manual.js:11 - startServer()\\n"
+]
+`;
